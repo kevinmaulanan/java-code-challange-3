@@ -8,7 +8,7 @@ public class Segitiga {
         for (int i = tinggi, k = 0; i >= 0 && k <= tinggi; i--, k++) {
             String text = "";
             for (int j = 0; j < i; j++) {
-                countinue;
+                text += " ";
             }
             for (int j = 0; j < k; j++) {
                 text += "*";
